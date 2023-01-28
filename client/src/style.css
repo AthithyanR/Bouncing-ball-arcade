@@ -1,0 +1,19 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+canvas {
+	background-color: lightblue;
+}
+
