@@ -31,11 +31,11 @@ export default function App() {
 
 		if (leftCount === 3) {
 			cancelAnimationFrame(animationFrameId)
-			setTimeout(() => alert('Match over player right wins!!!'), 0)
+			setTimeout(() => alert('Match over player left wins!!!'), 0)
 		}
 		if (rightCount === 3) {
 			cancelAnimationFrame(animationFrameId)
-			setTimeout(() => alert('Match over player left wins!!!'), 0)
+			setTimeout(() => alert('Match over player right wins!!!'), 0)
 		}
 	}
 
